@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-warning {
+    @apply cga-bg-yellow-500;
+    @apply cga-text-white ;
+    @apply cga-transition ;
+    @apply cga-duration-700 ;
+    @apply cga-cursor-pointer ;
+    @apply cga-py-2 ;
+    @apply cga-px-8 ;
+    @apply cga-rounded;
+}
+
+.btn-warning:hover {
+    @apply cga-bg-yellow-700;
+}
+
+.card {
+    @apply cga-bg-blue-100;
+    @apply cga-rounded;
+    @apply cga-p-4;
+    @apply cga-border-2 ;
+    @apply cga-border-blue-800;
+}
